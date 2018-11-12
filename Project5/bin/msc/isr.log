@@ -1,0 +1,128 @@
+============================================================
+Time  2018/10/29 09:28:16 542 
+============================================================
+[2018/10/29 09:28:16 549] isr        1659 isr loaded!  
+[2018/10/29 09:28:16 549] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(be04da70) 
+[2018/10/29 09:28:16 549] isr        1537 ASR_MSG_SSB  
+[2018/10/29 09:28:16 549] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 09:28:16 549] isr        927  vad_set [in]  
+[2018/10/29 09:28:16 549] isr        962  vad_enable :  true  
+[2018/10/29 09:28:16 549] isr        980  vad_bos :  10000  
+[2018/10/29 09:28:16 552] isr        981  vad_eos :  2000  
+[2018/10/29 09:28:16 552] isr        886  enable_vad [in]  
+[2018/10/29 09:28:16 552] isr        918  vad enabled!  2000  10000  
+[2018/10/29 09:28:16 552] isr        921  enable_vad [out]  
+[2018/10/29 09:28:16 552] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 09:28:16 552] isr        1182 cur_engine_type =   local  
+[2018/10/29 09:28:16 552] isr        992  local_session_begin  
+[2018/10/29 09:28:16 618] isr        1670 SYS_MSG_SHUTDOWN  
+============================================================
+Time  2018/10/29 09:41:07 736 
+============================================================
+[2018/10/29 09:41:07 736] isr        1659 isr loaded!  
+[2018/10/29 09:41:07 737] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(399bded0) 
+[2018/10/29 09:41:07 739] isr        1537 ASR_MSG_SSB  
+[2018/10/29 09:41:07 739] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 09:41:07 739] isr        927  vad_set [in]  
+[2018/10/29 09:41:07 739] isr        962  vad_enable :  true  
+[2018/10/29 09:41:07 739] isr        980  vad_bos :  10000  
+[2018/10/29 09:41:07 739] isr        981  vad_eos :  2000  
+[2018/10/29 09:41:07 739] isr        886  enable_vad [in]  
+[2018/10/29 09:41:07 740] isr        918  vad enabled!  2000  10000  
+[2018/10/29 09:41:07 740] isr        921  enable_vad [out]  
+[2018/10/29 09:41:07 740] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 09:41:07 740] isr        1182 cur_engine_type =   local  
+[2018/10/29 09:41:07 740] isr        992  local_session_begin  
+[2018/10/29 09:41:07 753] isr        1639 ASR_MSG_SSE,   local  
+[2018/10/29 09:41:07 756] isr        1356 session_end() [in]  
+[2018/10/29 09:41:07 756] isr        1377 local_session_end() [in]  
+[2018/10/29 09:41:07 762] isr        1416 ASR_LOCAL_MSG_SSE net_type  nil  
+[2018/10/29 09:41:07 763] isr        1667 isr unload!  
+============================================================
+Time  2018/10/29 22:39:29 471 
+============================================================
+[2018/10/29 22:39:29 471] isr        1659 isr loaded!  
+[2018/10/29 22:39:29 473] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(7368e030) 
+[2018/10/29 22:39:29 473] isr        1537 ASR_MSG_SSB  
+[2018/10/29 22:39:29 473] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 22:39:29 473] isr        927  vad_set [in]  
+[2018/10/29 22:39:29 473] isr        962  vad_enable :  true  
+[2018/10/29 22:39:29 473] isr        980  vad_bos :  10000  
+[2018/10/29 22:39:29 473] isr        981  vad_eos :  2000  
+[2018/10/29 22:39:29 473] isr        886  enable_vad [in]  
+[2018/10/29 22:39:29 476] isr        918  vad enabled!  2000  10000  
+[2018/10/29 22:39:29 476] isr        921  enable_vad [out]  
+[2018/10/29 22:39:29 476] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 22:39:29 476] isr        1182 cur_engine_type =   local  
+[2018/10/29 22:39:29 476] isr        992  local_session_begin  
+[2018/10/29 22:39:29 480] isr        1639 ASR_MSG_SSE,   local  
+[2018/10/29 22:39:29 480] isr        1356 session_end() [in]  
+[2018/10/29 22:39:29 480] isr        1377 local_session_end() [in]  
+[2018/10/29 22:39:29 480] isr        1416 ASR_LOCAL_MSG_SSE net_type  nil  
+[2018/10/29 22:39:29 482] isr        1667 isr unload!  
+============================================================
+Time  2018/10/29 22:46:57 121 
+============================================================
+[2018/10/29 22:46:57 121] isr        1659 isr loaded!  
+[2018/10/29 22:46:57 122] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(5018d840) 
+[2018/10/29 22:46:57 122] isr        1537 ASR_MSG_SSB  
+[2018/10/29 22:46:57 124] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 22:46:57 124] isr        927  vad_set [in]  
+[2018/10/29 22:46:57 124] isr        962  vad_enable :  true  
+[2018/10/29 22:46:57 124] isr        980  vad_bos :  10000  
+[2018/10/29 22:46:57 124] isr        981  vad_eos :  2000  
+[2018/10/29 22:46:57 124] isr        886  enable_vad [in]  
+[2018/10/29 22:46:57 140] isr        918  vad enabled!  2000  10000  
+[2018/10/29 22:46:57 140] isr        921  enable_vad [out]  
+[2018/10/29 22:46:57 140] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 22:46:57 140] isr        1182 cur_engine_type =   local  
+[2018/10/29 22:46:57 140] isr        992  local_session_begin  
+[2018/10/29 22:46:57 151] isr        1639 ASR_MSG_SSE,   local  
+[2018/10/29 22:46:57 151] isr        1356 session_end() [in]  
+[2018/10/29 22:46:57 151] isr        1377 local_session_end() [in]  
+[2018/10/29 22:46:57 157] isr        1416 ASR_LOCAL_MSG_SSE net_type  nil  
+[2018/10/29 22:46:57 158] isr        1667 isr unload!  
+============================================================
+Time  2018/10/29 22:57:53 194 
+============================================================
+[2018/10/29 22:57:53 194] isr        1659 isr loaded!  
+[2018/10/29 22:57:53 196] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(3d508d90) 
+[2018/10/29 22:57:53 197] isr        1537 ASR_MSG_SSB  
+[2018/10/29 22:57:53 197] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 22:57:53 197] isr        927  vad_set [in]  
+[2018/10/29 22:57:53 197] isr        962  vad_enable :  true  
+[2018/10/29 22:57:53 197] isr        980  vad_bos :  10000  
+[2018/10/29 22:57:53 197] isr        981  vad_eos :  2000  
+[2018/10/29 22:57:53 197] isr        886  enable_vad [in]  
+[2018/10/29 22:57:53 198] isr        918  vad enabled!  2000  10000  
+[2018/10/29 22:57:53 200] isr        921  enable_vad [out]  
+[2018/10/29 22:57:53 200] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 22:57:53 200] isr        1182 cur_engine_type =   local  
+[2018/10/29 22:57:53 201] isr        992  local_session_begin  
+[2018/10/29 22:57:53 204] isr        1639 ASR_MSG_SSE,   local  
+[2018/10/29 22:57:53 204] isr        1356 session_end() [in]  
+[2018/10/29 22:57:53 207] isr        1377 local_session_end() [in]  
+[2018/10/29 22:57:53 210] isr        1416 ASR_LOCAL_MSG_SSE net_type  nil  
+[2018/10/29 22:57:53 216] isr        1667 isr unload!  
+============================================================
+Time  2018/10/29 23:08:59 773 
+============================================================
+[2018/10/29 23:08:59 775] isr        1659 isr loaded!  
+[2018/10/29 23:08:59 775] isr        1642 SYS_MSG_REGCB param0 =   msp_status_cb  param1 =   func(edb7f850) 
+[2018/10/29 23:08:59 776] isr        1537 ASR_MSG_SSB  
+[2018/10/29 23:08:59 776] isr        1066 session_begin() [in], params:   engine_type = local, asr_res_path = ****, sample_rate = ****, grm_build_path = ****, local_grammar = ****, result_type = json, result_encoding = UTF-8  nil  
+[2018/10/29 23:08:59 776] isr        927  vad_set [in]  
+[2018/10/29 23:08:59 776] isr        962  vad_enable :  true  
+[2018/10/29 23:08:59 776] isr        980  vad_bos :  10000  
+[2018/10/29 23:08:59 776] isr        981  vad_eos :  2000  
+[2018/10/29 23:08:59 776] isr        886  enable_vad [in]  
+[2018/10/29 23:08:59 780] isr        918  vad enabled!  2000  10000  
+[2018/10/29 23:08:59 780] isr        921  enable_vad [out]  
+[2018/10/29 23:08:59 782] isr        987  vad_set [out] | ret =  0  
+[2018/10/29 23:08:59 782] isr        1182 cur_engine_type =   local  
+[2018/10/29 23:08:59 782] isr        992  local_session_begin  
+[2018/10/29 23:08:59 796] isr        1639 ASR_MSG_SSE,   local  
+[2018/10/29 23:08:59 796] isr        1356 session_end() [in]  
+[2018/10/29 23:08:59 796] isr        1377 local_session_end() [in]  
+[2018/10/29 23:08:59 796] isr        1416 ASR_LOCAL_MSG_SSE net_type  nil  
+[2018/10/29 23:08:59 799] isr        1667 isr unload!  

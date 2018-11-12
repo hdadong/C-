@@ -1,0 +1,256 @@
+============================================================
+Time  2018/10/28 21:23:04 595 
+============================================================
+[2018/10/28 21:23:04 595] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/28 21:23:04 595] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/28 21:23:04 596] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/28 21:23:04 596] ivw_upload 645  try2_query  
+[2018/10/28 21:23:04 596] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/28 21:23:04 596] ivw_upload 665  Do query  
+[2018/10/28 21:23:04 598] ivw_upload 673  compressed data_len:  63  
+[2018/10/28 21:23:04 599] ivw_upload 677  xor data_len:  63  
+[2018/10/28 21:23:04 599] ivw_upload 305  build_httpreq type=  query  
+[2018/10/28 21:23:04 599] ivw_upload 340  unknown  
+[2018/10/28 21:23:04 599] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/28 21:23:04 599] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/28 21:23:04 599] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/28 21:23:04 645] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/28 21:23:04 730] network    245  dns resp  0  1  
+[2018/10/28 21:23:04 730] network    487  gethttpresp dns ok  117.121.50.210  
+[2018/10/28 21:23:04 730] network    445  gethttpresp2  117.121.50.210  80  2  
+[2018/10/28 21:23:04 730] network    465  prot_type  tcp  
+[2018/10/28 21:23:04 779] network    350  connected  2  
+[2018/10/28 21:23:04 779] network    353  send ok  205  2  
+[2018/10/28 21:23:04 857] network    362  readable  2  
+[2018/10/28 21:23:04 857] network    366  HTTP/1.1 200 
+Server: nginx
+Date: Sun, 28 Oct 2018 13:23:03 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+8a
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiXVenU1wMB214pgM5BwcH"}
+0
+
+  
+[2018/10/28 21:23:04 857] ivw_upload 514  http resp  nil  0  udata(89540438) 
+[2018/10/28 21:23:04 857] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiXVenU1wMB214pgM5BwcH"}  
+[2018/10/28 21:23:04 857] ivw_upload 557  data_xor len=  73  
+[2018/10/28 21:23:04 861] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":"********"}}  62  
+[2018/10/28 21:23:04 861] ivw_upload 485  query wakelist:    
+[2018/10/28 21:23:04 861] ivw_upload 494  ==================== Query Success ====================  
+[2018/10/28 21:23:04 862] ivw_upload 57   ==================== Query Finished ====================  
+============================================================
+Time  2018/10/28 21:23:26 121 
+============================================================
+[2018/10/28 21:23:26 122] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/28 21:23:26 124] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/28 21:23:26 124] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/28 21:23:26 124] ivw_upload 645  try2_query  
+[2018/10/28 21:23:26 124] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/28 21:23:26 124] ivw_upload 665  Do query  
+[2018/10/28 21:23:26 128] ivw_upload 673  compressed data_len:  63  
+[2018/10/28 21:23:26 128] ivw_upload 677  xor data_len:  63  
+[2018/10/28 21:23:26 128] ivw_upload 305  build_httpreq type=  query  
+[2018/10/28 21:23:26 128] ivw_upload 340  unknown  
+[2018/10/28 21:23:26 128] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/28 21:23:26 128] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/28 21:23:26 128] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/28 21:23:26 128] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/28 21:23:26 227] network    245  dns resp  0  1  
+[2018/10/28 21:23:26 227] network    487  gethttpresp dns ok  117.121.50.210  
+[2018/10/28 21:23:26 227] network    445  gethttpresp2  117.121.50.210  80  2  
+[2018/10/28 21:23:26 227] network    465  prot_type  tcp  
+[2018/10/28 21:23:26 273] network    350  connected  2  
+[2018/10/28 21:23:26 273] network    353  send ok  205  2  
+[2018/10/28 21:23:26 325] network    362  readable  2  
+[2018/10/28 21:23:26 326] network    366  HTTP/1.1 200 
+Server: nginx
+Date: Sun, 28 Oct 2018 13:23:25 GMT
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Vary: Accept-Encoding
+
+8a
+{"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiXVenU1wMB214pgM5BwcH"}
+0
+
+  
+[2018/10/28 21:23:26 328] ivw_upload 514  http resp  nil  0  udata(b80d23b8) 
+[2018/10/28 21:23:26 328] ivw_upload 525  {"code":"00000","desc":"ÊàêÂäü","data":"GIwPBwcHBwcHB6xRTclKVrVVLSrPzkhLLitKKq1T1VbNKCpWta1RLUjLScrOKwG1koeFjgICnieiXVenU1wMB214pgM5BwcH"}  
+[2018/10/28 21:23:26 328] ivw_upload 557  data_xor len=  73  
+[2018/10/28 21:23:26 329] ivw_upload 418  uncompressed data  {"cmd":"uploadquery","out":{"wakelist":"","appid":"********"}}  62  
+[2018/10/28 21:23:26 329] ivw_upload 485  query wakelist:    
+[2018/10/28 21:23:26 329] ivw_upload 494  ==================== Query Success ====================  
+[2018/10/28 21:23:26 329] ivw_upload 57   ==================== Query Finished ====================  
+============================================================
+Time  2018/10/29 09:28:16 526 
+============================================================
+[2018/10/29 09:28:16 548] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 09:28:16 599] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 09:28:16 599] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 09:28:16 599] ivw_upload 645  try2_query  
+[2018/10/29 09:28:16 599] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/29 09:28:16 599] ivw_upload 665  Do query  
+[2018/10/29 09:28:16 601] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 09:28:16 601] ivw_upload 677  xor data_len:  63  
+[2018/10/29 09:28:16 601] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 09:28:16 601] ivw_upload 340  unknown  
+[2018/10/29 09:28:16 601] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/29 09:28:16 601] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 09:28:16 601] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 09:28:16 618] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 09:28:16 624] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 09:28:16 624] ivw_upload 610  save no upload data  
+[2018/10/29 09:28:16 624] ivw_upload 622  data size:  0  
+============================================================
+Time  2018/10/29 09:41:07 723 
+============================================================
+[2018/10/29 09:41:07 723] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 09:41:07 723] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 09:41:07 723] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 09:41:07 723] ivw_upload 645  try2_query  
+[2018/10/29 09:41:07 723] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/29 09:41:07 723] ivw_upload 665  Do query  
+[2018/10/29 09:41:07 730] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 09:41:07 730] ivw_upload 677  xor data_len:  63  
+[2018/10/29 09:41:07 730] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 09:41:07 730] ivw_upload 340  unknown  
+[2018/10/29 09:41:07 730] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/29 09:41:07 730] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 09:41:07 730] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 09:41:07 730] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 09:41:07 842] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 09:41:07 842] ivw_upload 610  save no upload data  
+[2018/10/29 09:41:07 842] ivw_upload 622  data size:  0  
+============================================================
+Time  2018/10/29 22:39:29 460 
+============================================================
+[2018/10/29 22:39:29 461] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 22:39:29 500] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 22:39:29 500] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 22:39:29 500] ivw_upload 645  try2_query  
+[2018/10/29 22:39:29 500] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/29 22:39:29 502] ivw_upload 665  Do query  
+[2018/10/29 22:39:29 503] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 22:39:29 503] ivw_upload 677  xor data_len:  63  
+[2018/10/29 22:39:29 503] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 22:39:29 503] ivw_upload 340  unknown  
+[2018/10/29 22:39:29 503] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/29 22:39:29 503] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 22:39:29 503] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 22:39:29 503] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 22:39:29 532] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 22:39:29 532] ivw_upload 610  save no upload data  
+[2018/10/29 22:39:29 532] ivw_upload 622  data size:  0  
+============================================================
+Time  2018/10/29 22:46:57 112 
+============================================================
+[2018/10/29 22:46:57 112] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 22:46:57 115] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 22:46:57 115] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 22:46:57 115] ivw_upload 645  try2_query  
+[2018/10/29 22:46:57 115] ivw_upload 653  query_data   {"input":{"appid":"********"},"cmd":"uploadquery"}  
+[2018/10/29 22:46:57 115] ivw_upload 665  Do query  
+[2018/10/29 22:46:57 132] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 22:46:57 132] ivw_upload 677  xor data_len:  63  
+[2018/10/29 22:46:57 132] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 22:46:57 132] ivw_upload 340  unknown  
+[2018/10/29 22:46:57 132] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QÕÀ,/*Vµ≠QM+/œKVµU’Ö¢]¢„[óOnFIyeMfnmV¢U*Ω Û4  
+[2018/10/29 22:46:57 132] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 22:46:57 132] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 22:46:57 132] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 22:46:57 220] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 22:46:57 220] ivw_upload 610  save no upload data  
+[2018/10/29 22:46:57 220] ivw_upload 622  data size:  0  
+============================================================
+Time  2018/10/29 22:57:53 186 
+============================================================
+[2018/10/29 22:57:53 186] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 22:57:53 187] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 22:57:53 187] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 22:57:53 187] ivw_upload 645  try2_query  
+[2018/10/29 22:57:53 187] ivw_upload 653  query_data   {"input":{"appid":"********"},"cmd":"uploadquery"}  
+[2018/10/29 22:57:53 187] ivw_upload 665  Do query  
+[2018/10/29 22:57:53 196] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 22:57:53 196] ivw_upload 677  xor data_len:  63  
+[2018/10/29 22:57:53 196] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 22:57:53 196] ivw_upload 340  unknown  
+[2018/10/29 22:57:53 197] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QÕÀ,/*Vµ≠QM+/œKVµU’Ö¢]¢„[óOnFIyeMfnmV¢U*Ω Û4  
+[2018/10/29 22:57:53 197] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 22:57:53 197] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 22:57:53 197] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 22:57:53 302] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 22:57:53 302] ivw_upload 610  save no upload data  
+[2018/10/29 22:57:53 302] ivw_upload 622  data size:  0  
+============================================================
+Time  2018/10/29 23:08:59 746 
+============================================================
+[2018/10/29 23:08:59 746] ivw_upload 722  SYS_MSG_LOAD  
+[2018/10/29 23:08:59 747] ivw_upload 781  IVW_UPLOAD_MSG_QUE  
+[2018/10/29 23:08:59 747] ivw_upload 794  ==================== Query Start ====================  
+[2018/10/29 23:08:59 747] ivw_upload 645  try2_query  
+[2018/10/29 23:08:59 747] ivw_upload 653  query_data   {"cmd":"uploadquery","input":{"appid":"********"}}  
+[2018/10/29 23:08:59 747] ivw_upload 665  Do query  
+[2018/10/29 23:08:59 780] ivw_upload 673  compressed data_len:  63  
+[2018/10/29 23:08:59 780] ivw_upload 677  xor data_len:  63  
+[2018/10/29 23:08:59 780] ivw_upload 305  build_httpreq type=  query  
+[2018/10/29 23:08:59 780] ivw_upload 340  unknown  
+[2018/10/29 23:08:59 782] ivw_upload 402  POST /internal/awaken/comm HTTP/1.1
+Host: ins.xfyun.cn
+Connection: Keep-Alive
+Content-Type: application/octet-steam
+Content-Length: 63
+
+å¨QM…JVµU-*œŒHK.+J*≠S’VÕÀ,/*Vµ≠QM+/œNlFÜUj*ÇCÜ4  
+[2018/10/29 23:08:59 782] ivw_upload 408  handle_httpresp type=  query  
+[2018/10/29 23:08:59 782] network    501  gethttpresp  http://ins.xfyun.cn/internal/awaken/comm  nil  
+[2018/10/29 23:08:59 782] network    263  gethostbyname  ins.xfyun.cn  1  
+[2018/10/29 23:08:59 903] ivw_upload 733  SYS_MSG_SHUTDOWN  
+[2018/10/29 23:08:59 903] ivw_upload 610  save no upload data  
+[2018/10/29 23:08:59 903] ivw_upload 622  data size:  0  

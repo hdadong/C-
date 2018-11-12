@@ -1,0 +1,7 @@
+﻿  源.cpp
+d:\c++\语音识别2\语音识别2\源.cpp(52): warning C4267: “=”: 从“size_t”转换到“unsigned int”，可能丢失数据
+d:\c++\语音识别2\语音识别2\源.cpp(123): warning C4267: “=”: 从“size_t”转换到“long”，可能丢失数据
+d:\c++\语音识别2\语音识别2\源.cpp(143): warning C4018: “<”: 有符号/无符号不匹配
+d:\c++\语音识别2\语音识别2\源.cpp(173): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+d:\c++\语音识别2\语音识别2\源.cpp(205): warning C4267: “初始化”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  语音识别2.vcxproj -> D:\C++\语音识别2\x64\Debug\语音识别2.exe

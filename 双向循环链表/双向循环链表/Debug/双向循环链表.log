@@ -1,0 +1,87 @@
+﻿  源.cpp
+d:\c++\双向循环链表\双向循环链表\源.cpp(35): error C2440: “初始化”: 无法从“LinkNode<T> *”转换为“LinkNode<T>”
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(35): note: 无构造函数可以接受源类型，或构造函数重载决策不明确
+  d:\c++\双向循环链表\双向循环链表\源.cpp(34): note: 编译 类 模板 成员函数 "void Link<int>::insert(T)" 时
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(64): note: 参见对正在编译的函数 模板 实例化“void Link<int>::insert(T)”的引用
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(63): note: 参见对正在编译的 类 模板 实例化 "Link<int>" 的引用
+d:\c++\双向循环链表\双向循环链表\源.cpp(39): error C2440: “=”: 无法从“LinkNode<T>”转换为“LinkNode<T> *”
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(39): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\c++\双向循环链表\双向循环链表\源.cpp(40): error C2440: “=”: 无法从“LinkNode<T>”转换为“LinkNode<T> *”
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(40): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\c++\双向循环链表\双向循环链表\源.cpp(45): error C2248: “LinkNode<T>::last”: 无法访问 private 成员(在“LinkNode<T>”类中声明)
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(14): note: 参见“LinkNode<T>::last”的声明
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(56): note: 参见“LinkNode<T>”的声明
+          with
+          [
+              T=int
+          ]
+d:\c++\双向循环链表\双向循环链表\源.cpp(45): error C2440: “=”: 无法从“LinkNode<T>”转换为“LinkNode<T> *”
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(45): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\c++\双向循环链表\双向循环链表\源.cpp(46): error C2248: “LinkNode<T>::first”: 无法访问 private 成员(在“LinkNode<T>”类中声明)
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(13): note: 参见“LinkNode<T>::first”的声明
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(56): note: 参见“LinkNode<T>”的声明
+          with
+          [
+              T=int
+          ]
+d:\c++\双向循环链表\双向循环链表\源.cpp(47): error C2440: “=”: 无法从“LinkNode<T>”转换为“LinkNode<T> *”
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(47): note: 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符
+d:\c++\双向循环链表\双向循环链表\源.cpp(48): error C2248: “LinkNode<T>::last”: 无法访问 private 成员(在“LinkNode<T>”类中声明)
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(14): note: 参见“LinkNode<T>::last”的声明
+          with
+          [
+              T=int
+          ]
+  d:\c++\双向循环链表\双向循环链表\源.cpp(56): note: 参见“LinkNode<T>”的声明
+          with
+          [
+              T=int
+          ]
