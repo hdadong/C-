@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2016
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "图的存储结构", "图的存储结构\图的存储结构.vcxproj", "{E855A1F4-35F3-4390-8950-25BF892E3608}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Debug|x64.ActiveCfg = Debug|x64
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Debug|x64.Build.0 = Debug|x64
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Debug|x86.ActiveCfg = Debug|Win32
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Debug|x86.Build.0 = Debug|Win32
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Release|x64.ActiveCfg = Release|x64
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Release|x64.Build.0 = Release|x64
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Release|x86.ActiveCfg = Release|Win32
+		{E855A1F4-35F3-4390-8950-25BF892E3608}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8C3EFEC-EC93-4549-941D-77C3FB4F4CB2}
+	EndGlobalSection
+EndGlobal
